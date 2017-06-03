@@ -99,7 +99,7 @@ Set expiration of a generated token.
 
 ---
 
-See [`jsonwebtoken`](https://github.com/auth0/node-jsonwebtoken#jsonwebtoken)'s [`jwt.sign()`](https://github.com/auth0/node-jsonwebtoken#jwtsignpayload-secretorprivatekey-options-callback) function for the complete _options_ available; and [`auth.generateToken()`](#auth-generatetoken-data-tokenoptions-) on how to apply them.
+See [`jsonwebtoken`](https://github.com/auth0/node-jsonwebtoken#jsonwebtoken)'s [`jwt.sign()`](https://github.com/auth0/node-jsonwebtoken#jwtsignpayload-secretorprivatekey-options-callback) function for the complete _options_ available; and [`auth.generateToken()`](#authgeneratetokendata-tokenoptions) on how to apply them.
 
 ---
 
