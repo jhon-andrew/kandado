@@ -1,0 +1,37 @@
+{
+  "name": "kandado-test",
+  "version": "1.0.0",
+  "description": "This is a test application of 'kandado' - https://github.com/jhon-andrew/kandado",
+  "main": "app.js",
+  "scripts": {
+    "server": "start node server.js",
+    "test": "start node server.js && node client.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhon-andrew/kandado.git"
+  },
+  "keywords": [
+    "kandado",
+    "auth",
+    "authentication",
+    "token",
+    "express",
+    "middleware"
+  ],
+  "author": "Jhon Andrew Baes <anecbook@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jhon-andrew/kandado/issues"
+  },
+  "homepage": "https://github.com/jhon-andrew/kandado#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "kandado": "^1.1.1",
+    "nedb": "^1.8.0"
+  },
+  "devDependencies": {
+    "request": "^2.81.0"
+  }
+}
