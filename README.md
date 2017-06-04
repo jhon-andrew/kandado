@@ -139,3 +139,4 @@ auth.get('kandado') //returns 'is awesome!'
 
 * ExpressJS - https://github.com/expressjs/express
 * jsonwebtoken - https://github.com/auth0/node-jsonwebtoken
+* kandado-test (Sample Implementation) - https://github.com/jhon-andrew/kandado/tree/kandado-test
