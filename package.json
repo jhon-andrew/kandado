@@ -1,6 +1,6 @@
 {
   "name": "kandado",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Kandado is a simple token-based authentication middleware using jsonwebtoken made for ExpressJS.",
   "main": "kandado.js",
   "dependencies": {
