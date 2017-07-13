@@ -42,7 +42,7 @@ function kandado (secret) {
     // Authentication Middleware
     required (req, res, next) {
       // Check GET (req.query) or POST (req.body) data for the 'token' key
-      let token = req.query.token || req.body.token
+      let token = req.query.token || req.body.token || req.headers.authorization
 
       if (!token) {
         // If no token was passed, proceed to 'requireToken' middleware
